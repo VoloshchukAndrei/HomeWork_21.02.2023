@@ -1,6 +1,6 @@
 ﻿Console.Clear();
 
-Console.Write("Определение сумма цифр в заданом числе, ведите число: ");
+Console.Write("Определение суммы цифр в заданном числе, ведите число: ");
 int N = int.Parse(Console.ReadLine()!);
 int size = Quantity(N);
 int i = 0;
@@ -14,7 +14,7 @@ for (; i < size; i++)
     sum = sum + array[i];
 }
 
-Console.WriteLine($"Сумма цифр заданого числа {N} -> {sum}");
+Console.WriteLine($"Сумма цифр заданного числа {N} -> {sum}");
 
 int Quantity(int N)
 {
