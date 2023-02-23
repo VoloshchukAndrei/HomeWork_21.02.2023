@@ -1,6 +1,6 @@
 ﻿Console.Clear();
 
-Console.Write("Определение суммы цифр в заданном числе, ведите число: ");
+Console.Write("Определение суммы цифр в заданном числе, введите число: ");
 int N = int.Parse(Console.ReadLine()!);
 int size = Quantity(N);
 int i = 0;
